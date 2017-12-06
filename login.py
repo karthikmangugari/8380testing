@@ -8,7 +8,7 @@ class Blog_ATS():
       user = "instructor"
       pwd = "instructor1a"
       driver.maximize_window()
-      driver.get("http://schoolomaha.herokuapp.com/admin/")
+      driver.get("http://omschool.herokuapp.com/admin/")
       elem = driver.find_element_by_id("id_username")
       elem.send_keys(user)
       elem = driver.find_element_by_id("id_password")
